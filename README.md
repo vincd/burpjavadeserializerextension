@@ -25,7 +25,7 @@ Usage
 Dépendances
 -----------
 * La bibliothèque `Jython`, téléchargeable [ici](http://search.maven.org/remotecontent?filepath=org/python/jython-standalone/2.7.0/jython-standalone-2.7.0.jar)
-* La bibliothèque `XStream`, téléchargeable [ici](https://nexus.codehaus.org/content/repositories/releases/com/thoughtworks/xstream/xstream/1.4.8/xstream-1.4.8.jar), qui assure la conversion objet objet Java sérialisé-compressé en XML et inversement
+* La bibliothèque `XStream`, téléchargeable [ici](https://nexus.codehaus.org/content/repositories/releases/com/thoughtworks/xstream/xstream/1.4.8/xstream-1.4.8.jar), qui assure la conversion objet Java sérialisé-compressé en XML et inversement
 
 
 Copyright et licence
