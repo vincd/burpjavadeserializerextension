@@ -20,7 +20,7 @@ Usage
 0. Sélectionner le chemin vers l'interpréteur Jython au sein de Burp ; 
 1. Sélectionner un dossier dans le champ `Folder for loading modules (optional)` de l'onglet `Extender/Options` de Burp ;
 2. Ajouter les fichiers JAR de la bibliothèques XStream et de la classe Java `Employee` dans le dossier sélectionné précédemment ;
-3. Charger l'extension "JavaSerializeXML.py" au sein de l'onglet `Extender` : un onglet `Java serialized-to-XML editor` apparait lors de la visualisation (onglet Proxy) et de la modification (onglet Repeater) des requêtes au sein de Burp.
+3. Charger l'extension `JavaSerializeXML.py` au sein de l'onglet `Extender` : un onglet `Java serialized-to-XML editor` apparait lors de la visualisation (onglet Proxy) et de la modification (onglet Repeater) des requêtes au sein de Burp.
 
 ### Exemple d'application échangeant des objets Java sérialisés-compressés
 0. Démarrer le serveur Web `cd exemple/bin && java ServerWeb`
