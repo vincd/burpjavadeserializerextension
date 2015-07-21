@@ -27,16 +27,16 @@ public class ServerWeb {
       System.out.println("Server Waiting");
 
       InputStream in = t.getRequestBody();
-	  
+      
       InflaterInputStream localInflaterInputStream = new InflaterInputStream(in);
       ObjectInputStream localObjectInputStream = new ObjectInputStream(localInflaterInputStream);
-	  
+      
 
       try {
         employee = (Employee )localObjectInputStream.readObject();
       } catch (Exception e) {System.out.println(e); }
-	  
-	  System.out.println("Server Received employeeNumber= "
+      
+      System.out.println("Server Received employeeNumber= "
                             + employee .getEmployeeNumber());
       System.out.println("Server Received employeeName= "
                             + employee .getEmployeeName() + "\n");
@@ -48,16 +48,16 @@ public class ServerWeb {
       System.out.println("Server Sent employeeName= "
                             + employee .getEmployeeName() +"\n");
 
-	  t.sendResponseHeaders(200, 0);
-	  
-	  OutputStream os = t.getResponseBody();
-	  DeflaterOutputStream localDeflaterOutputStream = new DeflaterOutputStream(os);
-	  ObjectOutputStream localObjectOutputStream = new ObjectOutputStream(localDeflaterOutputStream);
-	  
-	  
+      t.sendResponseHeaders(200, 0);
+      
+      OutputStream os = t.getResponseBody();
+      DeflaterOutputStream localDeflaterOutputStream = new DeflaterOutputStream(os);
+      ObjectOutputStream localObjectOutputStream = new ObjectOutputStream(localDeflaterOutputStream);
+      
+      
       localObjectOutputStream.writeObject(employee);
       
-	  localObjectInputStream.close();
+      localObjectInputStream.close();
       localObjectOutputStream.close();
     }
   }
