@@ -1,9 +1,9 @@
-MISC XX Introduction au développement d'extensions Burp - Exemple sérialisation Java
+MISC 82 Introduction au développement d'extensions Burp - Exemple sérialisation Java
 ==================================================================================
 
 Description
 -----------
-Ce dépôt contient les sources et binaires de l'extension Burp "sérialisation Java" décrite dans l'article "Introduction au développement d'extensions Burp" du MISC n°XX.  
+Ce dépôt contient les sources et binaires de l'extension Burp "sérialisation Java" décrite dans l'article `Introduction au développement d'extensions Burp` du MISC n°82.  
 Les ressources sont regroupées ainsi :
 ```
 +---JavaSerializeXML.py	: Le code Jython de l'extension
