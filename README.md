@@ -10,7 +10,7 @@ Les ressources sont regroupées ainsi :
 |
 +---exemple				: Un exemple d'application Java échangeant des objets Java sérialisés-compressés en HTTP
 |   +---bin				: Les fichiers .class de l'application et le fichier jar de la classe Employee
-|   +---src				: Le fichiers sources des classes de l'application
+|   +---src				: Les fichiers sources des classes de l'application
 ```
 
 
